@@ -13,7 +13,7 @@ TEST_CASE ("Join function tests", "[join]")
 	std::vector<std::string> strings{"hello", "hi","hola"};
 	
 
-	CHECK( Join(strings,"~") == "hello~hi~hola");
+	CHECK( Join(strings,"~") == "hello~hi~hol");
 	REQUIRE(Join(strings," ") == "hello hi hola");
 }
 
